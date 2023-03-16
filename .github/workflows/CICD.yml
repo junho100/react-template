@@ -1,8 +1,8 @@
-name:CICD
+name: CICD
 
 on:
   push:
-    branches: ['master']
+    branches: ["master"]
 jobs:
   buildAndDeploy:
     runs-on: ubuntu-18.04
