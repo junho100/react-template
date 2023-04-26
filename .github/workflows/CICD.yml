@@ -25,7 +25,7 @@ jobs:
         working-directory: ./
         run: npm run build
 
-      - name: aws 세팅
+      - name: aws setting
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
